@@ -9,7 +9,6 @@ import {
 const Experience = ({ experiences }) => {
   return (
     <section className="section">
-      <Container>
         <Jumbotron className="bg-white">
           <h2 className="display-3 fw-bold mb-2 text-center">
             {experiences.heading}
@@ -22,7 +21,6 @@ const Experience = ({ experiences }) => {
             }
           </Row>
         </Jumbotron>
-      </Container>
     </section>
   );
 }

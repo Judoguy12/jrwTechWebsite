@@ -31,8 +31,26 @@ const Leadership = ({ heading, message, img, imageSize }) => {
                     }}
                   />
                   <Carousel.Caption>
-                    <h3>{value.label}</h3>
-                    <p>
+                    <h3
+                      style={{
+                        textShadow: `
+                          -1px -1px 0 #000, 
+                           1px -1px 0 #000, 
+                          -1px  1px 0 #000, 
+                           1px  1px 0 #000`,
+                      }} // Adds a black outline effect to the label (h3)
+                    >
+                      {value.label}
+                    </h3>
+                    <p
+                      style={{
+                        textShadow: `
+                          -1px -1px 0 #000, 
+                           1px -1px 0 #000, 
+                          -1px  1px 0 #000, 
+                           1px  1px 0 #000`,
+                      }} // Adds a black outline effect to the caption paragraph
+                    >
                       {value.paragraph}
                     </p>
                   </Carousel.Caption>

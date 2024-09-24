@@ -43,24 +43,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  profiePictureLink: "housane12",
+  imageLink: require("../editable-stuff/jamie.png"),
   imageSize: 375,
   message:
     "My name is Jamie and I am a Freelance AV and Theatre Technician with a focus on live sound. I have 8 years of technical experience, including a year of professional work. I appreciate the creative problem solving involved in technical theatre and especially theatrical sound. I have worked on a range of shows and events from supervising sound at Ed fringe 2024 to a small-scale tour with NTW in late 2023. I am passionate about how immersive and semi-immersive theatre can involve the audience in experiencing a deeper connection to the story.",
   resume: "https://nextcloud.housane.co.uk/s/H8LZBByGem4NS43",
-};
-
-// PROJECTS SECTION
-// Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
-//      i.e: reposLength: 0,
-// If you want to display specfic projects, add the repository names,
-//      i.e ["repository-1", "repo-2"]
-const repos = {
-  show: false,
-  heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 0,
-  specificRepos: [],
 };
 
 // Leadership SECTION
