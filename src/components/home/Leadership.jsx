@@ -31,7 +31,7 @@ const Leadership = ({ heading, message, img, imageSize }) => {
                     }}
                   />
                   <Carousel.Caption>
-                    <h4
+                    <h3 className="fs-5"
                       style={{
                         textShadow: `
                           -1px -1px 0 #000, 
