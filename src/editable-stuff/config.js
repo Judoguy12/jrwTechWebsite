@@ -119,7 +119,7 @@ const experiences = {
   data: [
     {
       role: 'Dante Networking',// Here Add Company Name
-      date: 'Acheved June 2024',
+      date: 'Achieved June 2024',
     },
     {
       role: 'First Aid at Work',
