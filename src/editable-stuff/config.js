@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Jamie",
   middleName: "",
   lastName: "Waters",
-  message: " Passionate about enabling inovative thought provoking theatre.  ",
+  message: " Passionate about enabling inovative thought-provoking theatre.  ",
   icons: [
     {
       image: "fa-instagram",
