@@ -44,6 +44,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
               alt="profilepicture"
               width={imgSize}
               height={imgSize}
+              style={{ objectFit: "cover" }}  // Ensures the image retains its aspect ratio
             />
           )}
         </div>
