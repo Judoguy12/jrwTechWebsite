@@ -41,7 +41,7 @@ const Leadership = ({ heading, message, img, imageSize }) => {
                       }} // Adds a black outline effect to the label (h3)
                     >
                       {value.label}
-                    </h4>
+                    </h3>
                     <p
                       style={{
                         textShadow: `
