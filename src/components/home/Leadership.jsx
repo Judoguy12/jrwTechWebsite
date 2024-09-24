@@ -9,9 +9,9 @@ const Leadership = ({ heading, message, img, imageSize }) => {
       className="m-0"
       style={{ backgroundColor: "white" }}
     >
-      <h2 className="display-3 fw-bold pb-2 text-center">{heading}</h2>
+      <h2 className="display-2 fw-bold pb-2 text-center">{heading}</h2>
       <div className="row">
-        <div className="text-center display-3">
+        <div className="text-center display-2">
           <p className="lead">{message}</p>
         </div>
         <div className="p-2">
