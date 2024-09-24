@@ -12,7 +12,7 @@ const ExperienceCard = ({ data }) => {
         <p className="lead fw-bold fs-4">
           {data.role}
           </p>
-         <p className="lead fs-4"> 
+         <p className="lead"> 
           {data.date}
         </p>
       </div>
