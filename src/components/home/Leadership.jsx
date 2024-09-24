@@ -9,9 +9,9 @@ const Leadership = ({ heading, message, img, imageSize }) => {
       className="m-0"
       style={{ backgroundColor: "white" }}
     >
-      <h2 className="display-3 fw-bold pb-5 text-center">{heading}</h2>
+      <h2 className="display-3 fw-bold pb-2 text-center">{heading}</h2>
       <div className="row">
-        <div className="text-center pb-5 display-3">
+        <div className="text-center display-3">
           <p className="lead">{message}</p>
         </div>
         <div className="p-2">
@@ -25,7 +25,7 @@ const Leadership = ({ heading, message, img, imageSize }) => {
                     alt={`Slide ${index}`}
                     style={{
                       width: "100%",
-                      height: imageSize.height,
+                      height: "400px",  // Reduced height,
                       objectFit: "cover" // Ensures the image covers the area while maintaining aspect ratio
                     }}
                   />
