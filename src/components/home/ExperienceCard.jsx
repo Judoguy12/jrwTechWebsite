@@ -11,10 +11,10 @@ const ExperienceCard = ({ data }) => {
         <img className=" bg-white mb-3" src={data.companylogo} alt="" />
         <p className="lead fw-bold fs-4">
           {data.role}
-          <br />
+          </p>
+         <p className="lead fs-4"> 
           {data.date}
         </p>
-
       </div>
     </Col>
   );
