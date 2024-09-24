@@ -26,7 +26,7 @@ const Leadership = ({ heading, message, img, imageSize }) => {
                     style={{
                       width: "100%",
                       height: "auto",  // Let the height adjust based on width
-                      maxHeight: "700px", // Optional: Limit the max height for a compact layout
+                      maxHeight: "400px", // Optional: Limit the max height for a compact layout
                       objectFit: "contain", // Scale images to fit within the container while maintaining aspect ratio
                     }}
                   />
