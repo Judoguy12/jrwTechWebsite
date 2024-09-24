@@ -23,7 +23,7 @@ const Footer = (props) => {
             Project code is open source. Feel free to fork and make your own
             version.
           </small>
-          <small className="text-muted"><a href="https://drive.proton.me/urls/S03HJFEKF8#oi0YcXXqT3HW" target="_blank">Privacy Policy</a>
+          <small className="text-muted"><a href="https://drive.proton.me/urls/S03HJFEKF8#oi0YcXXqT3HW">Privacy Policy</a>
 </small>
         </p>
       </Container>
