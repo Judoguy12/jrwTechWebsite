@@ -100,6 +100,19 @@ const getInTouch = {
   email: "hello@jrwtechnical.uk",
 };
 
+// PROJECTS SECTION
+// Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
+//      i.e: reposLength: 0,
+// If you want to display specfic projects, add the repository names,
+//      i.e ["repository-1", "repo-2"]
+const repos = {
+  show: true,
+  heading: "Recent Projects",
+  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  reposLength: 4,
+  specificRepos: [],
+};
+
 const experiences = {
   show: true,
   heading: "Skills",
@@ -132,4 +145,4 @@ const experiences = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, skills, leadership, getInTouch, repos, experiences };
