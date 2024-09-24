@@ -25,8 +25,9 @@ const Leadership = ({ heading, message, img, imageSize }) => {
                     alt={`Slide ${index}`}
                     style={{
                       width: "100%",
-                      height: "400px",  // Reduced height,
-                      objectFit: "cover" // Ensures the image covers the area while maintaining aspect ratio
+                      height: "auto",  // Let the height adjust based on width
+                      maxHeight: "600px", // Optional: Limit the max height for a compact layout
+                      objectFit: "contain", // Scale images to fit within the container while maintaining aspect ratio
                     }}
                   />
                   <Carousel.Caption>
