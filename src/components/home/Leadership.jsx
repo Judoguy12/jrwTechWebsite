@@ -11,10 +11,10 @@ const Leadership = ({ heading, message, img, imageSize }) => {
     >
       <h2 className="display-3 fw-bold pb-5 text-center">{heading}</h2>
       <div className="row">
-        <div className="col-md-5">
+        <div className="md-5">
           <p className="lead">{message}</p>
         </div>
-        <div className="col-md-7">
+        <div className="md-5">
           <Carousel>
             {img.map((value, index) => {
               return (

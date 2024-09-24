@@ -17,7 +17,7 @@ const mainBody = {
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/amie-waters-450a021b5/",
+      url: "https://www.linkedin.com/in/jamie-waters-450a021b5/",
     },
     {
       image: "fa-facebook",
@@ -68,7 +68,7 @@ const leadership = {
   show: true,
   heading: "Recent Projects",
   message:
-    "Here are a selection of projects I have recently worked on",
+    "Here is a selection of my recent work",
   images: [
     { 
       img: require("../editable-stuff/fringe.png"), 
@@ -79,6 +79,11 @@ const leadership = {
       img: require("../editable-stuff/cof.png"), 
       label: "Sound & Video Technician - Circle of Fifths", 
       paragraph: "This was a small scale Welsh tour exploring the rituals around death and dying in the Butetown community. I was responsible for all of the Sound and Video aspects of the show while on tour, as well as responsible for Sound through the rehearsal process." 
+    },
+    { 
+      img: require("../editable-stuff/darksl.png"), 
+      label: "Technical Director - Dark Slate Theatre Company", 
+      paragraph: "Coordinating all things technical across our shows most recently on The Unspoken. We take influence from film noir, German expressionism, and immersive theatre creating unique and engaging experiences for our audiences" 
     },
   ],
   imageSize: {
