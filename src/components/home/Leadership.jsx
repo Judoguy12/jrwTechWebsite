@@ -9,9 +9,9 @@ const Leadership = ({ heading, message, img, imageSize }) => {
       className="m-0"
       style={{ backgroundColor: "white" }}
     >
-      <h2 className="display-2 fw-bold pb-2 text-center">{heading}</h2>
+      <h2 className="display-3 fw-bold pb-2 text-center">{heading}</h2>
       <div className="row">
-        <div className="text-center display-2">
+        <div className="text-center display-3">
           <p className="lead">{message}</p>
         </div>
         <div className="p-2">
@@ -31,7 +31,7 @@ const Leadership = ({ heading, message, img, imageSize }) => {
                     }}
                   />
                   <Carousel.Caption>
-                    <h3
+                    <h4
                       style={{
                         textShadow: `
                           -1px -1px 0 #000, 
@@ -41,7 +41,7 @@ const Leadership = ({ heading, message, img, imageSize }) => {
                       }} // Adds a black outline effect to the label (h3)
                     >
                       {value.label}
-                    </h3>
+                    </h4>
                     <p
                       style={{
                         textShadow: `
