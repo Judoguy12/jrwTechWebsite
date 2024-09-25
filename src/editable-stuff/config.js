@@ -96,7 +96,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for freelance oppotunities in and around London, if you think there's a project we could work together on please reach out",
+    "I'm currently looking for freelance opportunities in and around London, if you think there's a project we could work on together please reach out:",
   email: "hello@jrwtechnical.uk",
 };
 
