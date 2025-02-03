@@ -122,8 +122,8 @@ const experiences = {
       date: 'Achieved June 2024',
     },
     {
-      role: 'First Aid at Work',
-      date: 'Valid to November 2024',
+      role: 'FREC 3 (First Responder)',
+      date: 'Valid to December 2027',
     },
     {
       role: 'Q-Lab',
