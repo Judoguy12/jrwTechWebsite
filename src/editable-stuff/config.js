@@ -123,7 +123,7 @@ const experiences = {
   heading: "Skills",
   data: [
     {
-      role: 'Dante Networking',// Here Add Company Name
+      role: 'Dante Networking Lvl 3',// Here Add Company Name
       date: 'Achieved June 2024',
     },
     {
@@ -139,7 +139,7 @@ const experiences = {
       date: 'X32, dLive, Yamaha CL/QL, DiGiCo SD10, SQ series',
     },
     {
-      role: 'Project Management',
+      role: 'Technical Management',
       date: 'Experience accros a variety of projects from live music to musicals to theatre shows with both large and small teams',
     },
   ]
