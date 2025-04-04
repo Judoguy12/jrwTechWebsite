@@ -46,7 +46,7 @@ const about = {
   imageLink: require("../editable-stuff/jamie.png"),
   imageSize: 375,
   message:
-    "My name is Jamie and I am a Freelance AV and Theatre Technician with a focus on live sound. I have 8 years of technical experience, including a year of professional work. I appreciate the creative problem solving involved in technical theatre and especially theatrical sound. I have worked on a range of shows and events from supervising sound at Ed fringe 2024 to a small-scale tour with NTW in late 2023. I am passionate about how immersive and semi-immersive theatre can involve the audience in experiencing a deeper connection to the story.",
+    "My name is Jamie and I am a Freelance Production Sound Engineer, I have 8 years of technical experience, including a year of professional work. I appreciate the creative problem solving involved in technical theatre and especially theatrical sound. I have worked on a range of shows and events from supervising sound at Ed fringe 2024 to a small-scale tour with NTW in late 2023, more recently I have been working cassually across a variety of London theatres. I am passionate about how immersive and semi-immersive theatre can involve the audience in experiencing a deeper connection to the story.",
   resume: "https://nextcloud.housane.co.uk/s/H8LZBByGem4NS43",
 };
 
@@ -71,6 +71,11 @@ const leadership = {
       img: require("../editable-stuff/darksl.png"), 
       label: "Technical Director - Dark Slate Theatre Company", 
       paragraph: "Coordinating all things technical across our shows most recently on The Unspoken. We take influence from film noir, German expressionism, and immersive theatre creating unique and engaging experiences for our audiences" 
+    },
+        { 
+      img: require("../editable-stuff/gsa.png"), 
+      label: "Production Sound Engineer - GSA MA Plays 2024", 
+      paragraph: "Installing and maintaining the sound system for *The Unmanageable Sisters* and *Pericles*" 
     },
   ],
   imageSize: {
