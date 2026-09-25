@@ -47,7 +47,7 @@ const about = {
   imageSize: 375,
   message:
     "My name is Jamie and I am a Freelance Production Sound Engineer, I have 8 years of technical experience, including a year of professional work. I appreciate the creative problem solving involved in technical theatre and especially theatrical sound. I have worked on a range of shows and events from supervising sound at Ed fringe 2024 to a small-scale tour with NTW in late 2023, more recently I have been working cassually across a variety of London theatres. I am passionate about how immersive and semi-immersive theatre can involve the audience in experiencing a deeper connection to the story.",
-  resume: "https://nextcloud.housane.co.uk/s/H8LZBByGem4NS43",
+  resume: "https://nextcloud.housane.co.uk/s/FNGAdWo3AXgC7LA",
 };
 
 // Leadership SECTION
