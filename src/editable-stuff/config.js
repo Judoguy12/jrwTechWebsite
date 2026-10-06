@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Jamie",
   middleName: "",
   lastName: "Waters",
-  message: " Passionate about enabling inovative thought-provoking theatre.  ",
+  message: "Production Engineer & Technical Director",
   icons: [
     {
       image: "fa-instagram",
@@ -46,7 +46,7 @@ const about = {
   imageLink: require("../editable-stuff/jamie.png"),
   imageSize: 375,
   message:
-    "My name is Jamie and I am a Freelance Production Sound Engineer, I have 8 years of technical experience, including a year of professional work. I appreciate the creative problem solving involved in technical theatre and especially theatrical sound. I have worked on a range of shows and events from supervising sound at Ed fringe 2024 to a small-scale tour with NTW in late 2023, more recently I have been working cassually across a variety of London theatres. I am passionate about how immersive and semi-immersive theatre can involve the audience in experiencing a deeper connection to the story.",
+    "I'm a freelance Production Engineer and Technical Director working across UK theatre, touring, and live events—with production sound and video engineering at the core of my practice. Eight years of technical experience, four of them professional, have taken me from Deputy Head of Video at Pleasance Edinburgh to touring nationally with Northern Stage. I thrive on the creative problem-solving that production engineering demands: adapting systems to unfamiliar venues, solving under pressure, and making ambitious work happen safely. Beyond the desk, I hold FREC 4, SALMS, and MIMMS qualifications and work as a medical responder at events and sports fixtures. I'm particularly passionate about immersive and semi-immersive theatre, and how technical craft can draw an audience into a deeper connection with the story.",
   resume: "https://nextcloud.housane.co.uk/s/FNGAdWo3AXgC7LA",
 };
 
@@ -58,9 +58,9 @@ const leadership = {
     "Here is a selection of my recent work",
   images: [
     { 
-      img: require("../editable-stuff/fringe.png"), 
-      label: "Sound Supervisor - Edinbrugh Fringe 2024", 
-      paragraph: "Looking after the medium sized venues from a Sound/Video perspective throughout the festival proividing first line support to the venue crews to ensure smooth running of the festival, based at the Pleasance Courtyard." 
+      img: require("../editable-stuff/othello.png"), 
+      label: "Video Programmer / Production Video & Sound Engineer — Othello (Northern Stage National Tour)", 
+      paragraph: "Served as lead video programmer and production sound/video engineer on national theatre tour (Sep–Nov 2026). Designed and implemented video content cues integrating QLab with lighting and audio systems across multiple venue environments. Adapted show systems for diverse regional theatre spaces. Photo Credit: Marc Brenner" 
     },
     { 
       img: require("../editable-stuff/cof.png"), 
@@ -101,8 +101,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for freelance opportunities in and around London, if you think there's a project we could work on together please reach out:",
-  email: "hello@jrwtechnical.uk",
+    "I'm currently looking for freelance opportunities in and around the Peak District, if you think there's a project we could work on together please reach out:",
+  email: "admin@jrwtechnical.uk",
 };
 
 // PROJECTS SECTION
@@ -127,8 +127,8 @@ const experiences = {
       date: 'Achieved June 2024',
     },
     {
-      role: 'FREC 3 (First Responder)',
-      date: 'Valid to December 2027',
+      role: 'FREC 4 (First Responder)',
+      date: 'Enhanced with SALMS and MIMMS',
     },
     {
       role: 'Q-Lab',
@@ -136,7 +136,7 @@ const experiences = {
     },
     {
       role: 'Desks I have worked on',
-      date: 'X32, dLive, Yamaha CL/QL, DiGiCo SD10, SQ series',
+      date: 'X32, dLive, Yamaha CL/QL, DiGiCo, SQ series',
     },
     {
       role: 'Technical Management',
