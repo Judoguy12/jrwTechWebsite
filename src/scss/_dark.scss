@@ -1,0 +1,86 @@
+// Dark theme for the sections below the hero.
+$surface-1: #0b0b10;   // default section
+$surface-2: #14141b;   // alternating section
+$surface-3: #1c1c26;   // cards, tabs
+$border:    #2c2c3a;
+$text:      #e8e8ee;
+$text-dim:  #a4a4b4;
+$accent:    #38B6FF;   // logo blue
+
+html { color-scheme: dark; }
+
+body { background-color: $surface-1; color: $text; }
+
+.section-dark { background-color: $surface-1; color: $text; }
+.section-alt  { background-color: $surface-2; color: $text; }
+
+a { color: $accent; }
+a:hover { color: lighten($accent, 12%); }
+.text-muted { color: $text-dim !important; }
+
+// Cards (project cards)
+.card-dark {
+  background-color: $surface-3 !important;
+  color: $text;
+  border: 1px solid $border;
+  .card-title, .card-text { color: $text; }
+  hr { border-color: $border; opacity: 1; }
+}
+.card:hover { box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.6) !important; }
+
+// Skills tabs
+.nav-tabs {
+  border-bottom-color: $border;
+  .nav-link {
+    color: $text-dim;
+    &:hover, &:focus { color: $text; border-color: $border $border transparent; }
+    &.active {
+      color: $text;
+      background-color: $surface-3;
+      border-color: $border $border $surface-3;
+      border-top: 2px solid $accent;
+    }
+  }
+}
+
+// Skill bars
+.progress { background-color: $surface-3; }
+.progress-bar { background-color: $accent; color: #000; }
+
+// Footer
+.site-footer {
+  background-color: $surface-1;
+  color: $text;
+  border-top: 1px solid $border;
+  a { color: $accent; }
+  .badge a, a .badge { color: #000; }
+}
+
+// Carousel indicators / controls stay visible on dark
+.carousel-indicators [data-bs-target] { background-color: #fff; }
+
+// Navbar: white text, accent on hover/active
+.navbar {
+  --bs-navbar-color: #ffffff;
+  --bs-navbar-hover-color: #{$accent};
+  --bs-navbar-active-color: #{$accent};
+  --bs-navbar-brand-color: #ffffff;
+  --bs-navbar-brand-hover-color: #{$accent};
+  --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.4);
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+// Outline buttons (hero, About, project cards) use the accent
+.btn-outline-light {
+  --bs-btn-color: #{$accent};
+  --bs-btn-border-color: #{$accent};
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #{$accent};
+  --bs-btn-hover-border-color: #{$accent};
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #{$accent};
+  --bs-btn-active-border-color: #{$accent};
+}
+
+// Card hover glow
+.card-dark:hover { border-color: $accent; }

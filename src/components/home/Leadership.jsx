@@ -6,8 +6,7 @@ const Leadership = ({ heading, message, img, imageSize }) => {
   return (
     <Jumbotron
       id="leadership"
-      className="m-0"
-      style={{ backgroundColor: "white" }}
+      className="section-alt m-0"
     >
       <h2 className="display-3 fw-bold pb-2 text-center">{heading}</h2>
       <div className="row">

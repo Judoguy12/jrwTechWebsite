@@ -15,7 +15,7 @@ const ProjectCard = ({ value }) => {
   } = value;
   return (
     <Col md={6}>
-      <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
+      <Card className="card shadow-lg p-3 mb-5 card-dark rounded">
         <Card.Body>
           <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
           <Card.Text>{(!description) ? "" : description || <Skeleton count={3} />} </Card.Text>
@@ -42,11 +42,11 @@ const CardButtons = ({ svn_url }) => {
     <div className="d-grid gap-2 d-md-block">
       <a
         href={`${svn_url}/archive/master.zip`}
-        className="btn btn-outline-secondary mx-2"
+        className="btn btn-outline-light mx-2"
       >
         <i className="fab fa-github" /> Clone Project
       </a>
-      <a href={svn_url} target=" _blank" className="btn btn-outline-secondary mx-2">
+      <a href={svn_url} target=" _blank" className="btn btn-outline-light mx-2">
         <i className="fab fa-github" /> Repo
       </a>
     </div>
@@ -129,9 +129,9 @@ const CardFooter = ({ star_count, repo_url, pushed_at }) => {
       <a
         href={repo_url + "/stargazers"}
         target=" _blank"
-        className="text-dark text-decoration-none"
+        className="text-light text-decoration-none"
       >
-        <span className="text-dark card-link mr-4">
+        <span className="text-light card-link mr-4">
           <i className="fab fa-github" /> Stars{" "}
           <span className="badge badge-dark">{star_count}</span>
         </span>

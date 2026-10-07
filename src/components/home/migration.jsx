@@ -2,9 +2,8 @@ import React from 'react';
 import Nav from "react-bootstrap/Nav";
 
 export const Jumbotron = (props) => {
-  const bgStyle = props.style ?? { backgroundColor: "#e9ecef" };
   return (
-    <div id={props.id} className={`py-3 ${props.className}`} style={bgStyle}>
+    <div id={props.id} className={`py-3 section-dark ${props.className ?? ""}`} style={props.style}>
       <div className="container py-5">
         {props.children}
       </div>
